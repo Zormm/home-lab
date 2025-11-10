@@ -6,6 +6,7 @@ services:
         vanilla.zormi.de=${MC_IP}:25565
         semester3.zormi.de=${MC_IP}:25566
         bmc5.zormi.de=${MC_IP}:25567
+        christmas.zormi.de=${MC_IP}:25568
         skyblock.zormi.de=${MC_IP}:21000
         skies.zormi.de=${MC_IP}:21001
     network_mode: 'host'
