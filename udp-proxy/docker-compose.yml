@@ -1,0 +1,8 @@
+services:
+  udp-proxy:
+    image: alpine/socat
+    container_name: voice-chat-proxy
+    restart: unless-stopped
+    network_mode: host
+    command: >
+      -d -d UDP4-LISTEN:24454,fork,bind=0.0.0.0 UDP4:100.115.226.119:24454
